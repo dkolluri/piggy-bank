@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
+<<<<<<< HEAD
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
+=======
+>>>>>>> ac778ae... initial commit
 
 @Component({
   selector: 'app-root',
@@ -8,6 +11,7 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 })
 export class AppComponent {
   title = 'pay-calculator';
+<<<<<<< HEAD
   constructor(private route: ActivatedRoute,
     private router: Router){}
   // onButtonClick() {
@@ -15,4 +19,6 @@ export class AppComponent {
   //  	this.router.navigate(['/calculate',2]);
 
   //  }
+=======
+>>>>>>> ac778ae... initial commit
 }
