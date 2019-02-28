@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-<<<<<<< HEAD
 import { FormsModule } from '@angular/forms';
 import { FormWizardModule } from 'angular2-wizard';
 import { AppRoutingModule } from './app-routing.module';
@@ -25,19 +24,6 @@ import { SavingsSoonComponent } from './savings-soon/savings-soon.component';
     AppRoutingModule,
     FormsModule,
     FormWizardModule
-=======
-
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-
-@NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
->>>>>>> ac778ae... initial commit
   ],
   providers: [],
   bootstrap: [AppComponent]
